@@ -1,0 +1,251 @@
+body{
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-title{
+    background-color: #2D2D2D;
+    border-radius: 20px;
+    color: #FF005C;
+    font-size:large;
+    border-bottom:0.5px solid #FF005C;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    transition: 1s;
+}
+
+.btn-title:hover{
+    color: #00ffd5;
+    border-bottom: 3px solid #00ffd5;
+    transition: 1s;
+}
+
+.fab{
+    color: #fff;
+}
+
+.fab:hover{
+    color: #FF005C;
+}
+
+.row-profile{
+    background-color: #FF005C;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 1s;
+}
+
+.row-profile:hover{
+    background-color: #ed0089;
+    transition: 0.5s;
+}
+
+img{
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: 1, infinite;
+}
+
+@keyframes rotate{
+    0% {
+        transform: rotateY(0);
+    }
+    100% {
+        transform: rotateY(720deg);
+    }
+}
+
+.row-profile img:hover{
+    animation-name: rotate-hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1, infinite;
+}
+
+@keyframes rotate-hover{
+    0% {
+        transform: rotateY(0);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.btn-download{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.btn-download:hover{
+    color: #000000;
+    background-color: #fff;
+}
+
+.col-skill{
+    background-color: #dadada3e;
+    border-radius: 20px;
+    color: #ffffff;
+    animation: blob-bounce 3s ease;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.col-skill h5{
+    color: #9a47ff;
+}
+
+.col-skill:hover{
+    background-color: #d8d8d8;
+    border-radius: 20px;
+    color: #000000;
+    transition: 1s;
+}
+
+.item{
+    font-size:small;
+}
+
+.col-website{
+    background-color: #d9976b;
+    border-radius: 20px;
+    transition: 1s;
+    animation: blob-bounce 3.5s ease;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+@keyframes blob-bounce {
+  0% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+  }
+
+  100% {
+    transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+  }
+}
+
+.col-website p{
+    line-height: 2.3rem;
+}
+
+.col-website:hover{
+    background-color: #DABDA9;
+    transition: 1s;
+}
+
+.modal-header{
+    border: none;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.modal-header h5{
+    color: #ffffff;
+}
+
+.modal-website{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.modal-designs{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.modal-footer{
+    border: none;
+}
+
+.modal-footer button{
+    background-color: #FF005C;
+    border: none;
+}
+
+.modal-footer button:hover{
+    background-color: transparent;
+    color: #FF005C;
+}
+
+.card-web1{
+    background-color: #d8d8d85a;
+    color: #fff;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: 1, infinite;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.card-web2{
+    background-color: #d8d8d85a;
+    color: #fff;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: 1, infinite;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.card-web1 img{
+    animation-name: none;
+}
+
+.card-web2 img{
+    animation-name: none;
+}
+
+.card{
+    border-radius: 10px;
+    border: none;
+}
+
+.card a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.card-footer:hover{
+    color: #FF005C;
+    text-decoration: none;
+    background-color: #000000;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body p{
+    font-size: smaller;
+}
+
+.col-design{
+    background-color: #8a96fd;
+    border-radius: 20px;
+    transition: 1s;
+    animation: blob-bounce 4s ease;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.col-design p{
+    line-height: 0.5rem;
+}
+
+.col-design:hover{
+    background-color: #B8BFFF;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.fa-chevron-circle-right{
+    color: #000000;
+}
+
+.fa-chevron-circle-right:hover{
+    color: #FF005C;
+}
